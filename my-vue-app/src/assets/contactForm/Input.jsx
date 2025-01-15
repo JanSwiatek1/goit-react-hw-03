@@ -1,4 +1,5 @@
 import './Label.css'
+import PropTypes from 'prop-types';
 import { nanoid } from 'nanoid';
 
 export const Input = ({ value, onChange, type, name }) => {
@@ -17,3 +18,10 @@ export const Input = ({ value, onChange, type, name }) => {
     </>
   
 }
+Input.propTypes = {
+  onChange: PropTypes.number.isRequired,
+  type: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  value: PropTypes.string.isRequired,
+
+};
