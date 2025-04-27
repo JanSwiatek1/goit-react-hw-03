@@ -55,7 +55,3 @@ export const ContactForm = ({onAdd}) => {
 
 
 
-// Input.propTypes = {
-//   addUser: PropTypes.string.isRequired,
-
-// };
