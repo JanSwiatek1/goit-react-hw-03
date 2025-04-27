@@ -1,4 +1,4 @@
-import css from './Contact.module.css';
+import css from './contact.module.css';
 
 export const Contact = ({ contact, onDelete }) => {
   return (
